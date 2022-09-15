@@ -37,6 +37,7 @@ body {
 #display {
   height: 100px;
   display: flex;
+  overflow-y:scroll;
   flex-wrap: wrap;
   align-items: center;
   padding-left: 5rem;
@@ -202,4 +203,8 @@ button {
   .card {
     flex-direction: column;
   }
+}
+#clear-section{
+  display: flex;
+  justify-content: center;
 }
